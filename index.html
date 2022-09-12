@@ -45,7 +45,7 @@
             <h1 class="display-1">ARCANE</h1>
             <div class="lead fs-3">Build, for students, with students.</div>
           </div>
-          <div class="lead fs-4 m-5 slidein" style="animation-delay: 0.5s;">We make the <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="The web, school errands, and our club">arcane</span> accessible</div>
+          <div class="lead fs-4 m-5 slidein" style="animation-delay: 0.5s;">Make the <span data-bs-toggle="tooltip" data-bs-placement="bottom" title="The web, school errands, and our club">arcane</span> accessible</div>
         </div>
         <div class="col-4 mt-5">
           <img src="static/images/app.svg" alt="" class="slidein" style="animation-delay: 1.5s;">
@@ -56,46 +56,65 @@
     <!-- cards -->
     <div class="container mt-5 pt-5 slidein" style="animation-delay: 1.5s;">
       <div class="row gx-5">
-        <div class="col">
-          <div class="card">
-            <div class="card-body p-4">
-              <img src="static/images/window.svg" alt="window" class="card-img-top px-4">
-              <div class="card-title h2 mb-3">Learning</div>
-              <div class="card-text">
-                In the weekly gatherings, we would cover the basics of <strong>front-end development</strong>. For now, we plan to first walk through barebones <strong>HTML, CSS, JavaScript, and Python</strong>. After that, we would combine those building blocks and use available <strong>libraries and utilities</strong> on the web to get more rewarding results. Lastly, we are going to introduce <strong>linux and git</strong> to unlock the ability to control and share your workflow in an intuitive way.
-              </div>
-            </div>
-          </div>
+        <div class="col-5">
+          <img src="static/images/window.svg" alt="window" class="card-img-top px-5">
         </div>
-        
-        <div class="col">
-          <div class="card">
-            <div class="card-body p-4">
-              <img src="static/images/automation.svg" alt="automation" class="card-img-top px-4">
-              <div class="card-title h2 mb-3">Building</div>
-              <div class="card-text">
-                When we get the basics, we can go on to build tools to automate school errands, which would not only benefit other students but also consolidate our skills. Currently we are planning to build systems that digitalize <strong>noon leave notes</strong> (which I have been working on), <strong>evening self-study notes</strong>, and <strong>class-arrangements</strong>. You are also more than welcome to <a href="#footer">propose new project plans</a>.
-              </div>
-            </div>
+        <div class="col-7">
+          <div class="h2 my-4">Learning</div>
+          <div class="card-text">
+            In the weekly gatherings, we would cover the basics of <strong>front-end development</strong>. For now, we plan to first walk through barebones <strong>HTML, CSS, JavaScript, and Python</strong>. After that, we would combine those building blocks and use available <strong>libraries and utilities</strong> on the web to get more rewarding results. Lastly, we are going to introduce <strong>linux and git</strong> to unlock the ability to control and share your workflow in an intuitive way.
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <div class="card-body p-4">
-              <img src="static/images/interact.svg" alt="interact" class="card-img-top px-4">
-              <div class="card-title h2 mb-3">Meeting</div>
-              <div class="card-text mb-2">on <strong>Wednesdays</strong></div>
-              <div class="card-text mb-2">from <strong>4:40</strong> to <strong>5:10</strong></div>
-              <div class="card-text mb-2">in <strong>Lab 1</strong></div>
-            </div>
+        <hr>
+
+        <div class="col-5">
+          <img src="static/images/automation.svg" alt="automation" class="card-img-top px-5">
+        </div>
+        <div class="col-7">
+          <div class="h2 my-4">Building</div>
+          <div class="card-text">
+            When we get the basics, we can go on to build tools to automate school errands, which would not only benefit other students but also consolidate our skills. Currently we are planning to build systems that digitalize <strong>noon leave notes</strong> (which I have been working on), <strong>evening self-study notes</strong>, and <strong>class-arrangements</strong>. You are also more than welcome to <a href="#footer">propose new project plans</a>.
           </div>
         </div>
+
+        <hr>
+
+        <div class="col-5">
+          <img src="static/images/interact.svg" alt="interact" class="card-img-top px-5">
+        </div>
+        <div class="col-7">
+          <div class="h2 my-5">Meeting</div>
+          <div class="card-text mb-2">on <strong>Wednesdays</strong></div>
+          <div class="card-text mb-2">from <strong>4:40</strong> to <strong>5:10</strong></div>
+          <div class="card-text mb-2">in <strong>Lab 1</strong></div>
+        </div>
+
+        <hr>
+
       </div>
     </div>
   </main>
-  <footer class="py-5 bg-light" id="footer">
-    <!-- place footer here -->
+  <footer class="py-5 my-5 bg-light" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-11 offset-1 d-flex">
+          <div class="h3 mx-5">Get in Touch</div>
+          <button class="btn btn-primary ms-5" onclick="location.href='https://www.dingtalk.com/en'">
+            <img src="static/images/dingtalk.svg" alt="dingtalk" style="height: 1.3em;">
+            18501033573
+          </button>
+          <button class="btn btn-success ms-5" onclick="location.href='https://www.wechat.com/'" role="button">
+            <img src="static/images/wechat.svg" alt="wechat" style="height: 1.3em;">
+            1677091759
+          </button>
+          <button class="btn btn-dark ms-5" onclick="location.href='https://github.com/harryyan966'">
+            <img src="static/images/github.svg" alt="github" style="height: 1.3em;">
+            Github
+          </button>
+        </div>
+      </div>
+    </div>
   </footer>
   <script>
     // Initialize tooltips

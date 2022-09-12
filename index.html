@@ -17,7 +17,7 @@
 </head>
 
 <body class="text-bg-light">
-  <header class="pb-5">
+  <header>
     <!-- place navbar here -->
     <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
       <div class="container">
@@ -37,7 +37,8 @@
     </nav>
   </header>
   <main>
-    <div class="container mt-5">
+    <!-- title -->
+    <div class="container mt-5 pt-5">
       <div class="row">
         <div class="col-6 offset-1 slidein">
           <div class="m-5 pt-5">
@@ -51,8 +52,49 @@
         </div>
       </div>
     </div>
+    
+    <!-- cards -->
+    <div class="container mt-5 pt-5 slidein" style="animation-delay: 1.5s;">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="card">
+            <div class="card-body p-4">
+              <img src="static/images/window.svg" alt="window" class="card-img-top px-4">
+              <div class="card-title h2 mb-3">Learning</div>
+              <div class="card-text">
+                In the weekly gatherings, we would cover the basics of <strong>front-end development</strong>. For now, we plan to first walk through barebones <strong>HTML, CSS, JavaScript, and Python</strong>. After that, we would combine those building blocks and use available <strong>libraries and utilities</strong> on the web to get more rewarding results. Lastly, we are going to introduce <strong>linux and git</strong> to unlock the ability to control and share your workflow in an intuitive way.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <div class="card-body p-4">
+              <img src="static/images/automation.svg" alt="automation" class="card-img-top px-4">
+              <div class="card-title h2 mb-3">Building</div>
+              <div class="card-text">
+                When we get the basics, we can go on to build tools to automate school errands, which would not only benefit other students but also consolidate our skills. Currently we are planning to build systems that digitalize <strong>noon leave notes</strong> (which I have been working on), <strong>evening self-study notes</strong>, and <strong>class-arrangements</strong>. You are also more than welcome to <a href="#footer">propose new project plans</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-body p-4">
+              <img src="static/images/interact.svg" alt="interact" class="card-img-top px-4">
+              <div class="card-title h2 mb-3">Meeting</div>
+              <div class="card-text mb-2">on <strong>Wednesdays</strong></div>
+              <div class="card-text mb-2">from <strong>4:40</strong> to <strong>5:10</strong></div>
+              <div class="card-text mb-2">in <strong>Lab 1</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <footer>
+  <footer class="py-5 bg-light" id="footer">
     <!-- place footer here -->
   </footer>
   <script>
